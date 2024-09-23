@@ -1,7 +1,8 @@
 package com.example;
-
+import java.time.LocalDate;
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        LocalDate date = LocalDate.now();
+        System.out.println("Today is: " + date);
     }
 }
